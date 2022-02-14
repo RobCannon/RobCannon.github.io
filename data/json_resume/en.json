@@ -1,0 +1,243 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Robert Cannon",
+    "label": "Director of Cloud Services",
+    "email": "rob@cannonsoftware.com",
+    "phone": "404-452-0240",
+    "summary": "I am a technology professional with experience in a wide variety of platforms and technology that can work at the senior leadership level as well as work with a technical team to deliver great solutions. I build great teams and cultivate a prominent level of talent. I have combined my experiences as a developer and a software engineer to automate application delivery long before DevOps became an industry term. I am the person everyone turns to for help as I make customer service a top priority. I excel at hands-on work and I am one of the highest technical talents in the enterprise. That gives me great credibility when working with multiple teams to enact a vision and create significant positive change across a corporation.\n\n~ Proven track record of transforming teams and departments through the many evolutions of the IT industry while maintaining high levels of efficiency and security.\n~ Built Software Supply Chain systems and standards to meet FedRAMP specifications for containerized applications.\n~ Managed multi-national systems that generate billions of dollars of revenue with critical uptime requirements.\n~ Led development teams to produce industry revolutionizing software that resulted in a Technical Emmy award.",
+    "location": {
+      "address": "3613 Hedge Arbor Ct",
+      "postalCode": "30024",
+      "city": "Suwanee",
+      "countryCode": "US",
+      "region": "Georgia"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "RobCannon",
+        "url": "https://github.com/RobCannon"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "rob-cannon",
+        "url": "https://www.linkedin.com/in/rob-cannon"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Equifax",
+      "position": "Director of Cloud Services",
+      "startDate": "2019-07-31",
+      "summary": "Leading the engineering team that builds the core infrastructure security blocks to allow Equifax to migrate to the Google Cloud Platform and comply with FedRAMP standards.",
+      "highlights": [
+        "Established best practices for managing Google Kubernetes Engine and created Terraform automation that teams can use create clusters that meet high Equifax security standards. Continuing to bring new functionality such as Anthos Service Mesh and Anthos Configuration Manger as part of the Equifax standard for GKE.",
+        "Designed configuration in GKE and ASM that support observability requirements to run GKE at global scale for our SRE leads.",
+        "Developed an internal container image catalog to support the SDLC standards for all development teams.  Container images are regularly scanned for vulnerabilities and updated daily to ensure we have tight control over our Software Supply Chain.  Containers are tested to ensure functionality within the tightly controlled IT environment at Equifax.  This catalog covers a wide variety of technologies such as C#, Java, Go, NodeJS, Python, PowerShell, Terraform, Istio, Prometheus, Grafana, PostgreSQL and more.",
+        "Designed automation to build server images as well as the policies to ensure cloud servers meet Equifax security standard. Created automation that software teams can use to automate server rebuilds on a frequent basis without application downtime and eliminate traditional patching.",
+        "Designed Equifax Shell, a cloud resource where developers and software engineers can work that is kept up to date with the latest security patches and tool versions. It ensures teams are always on the same versions of toolsets but can work with familiar development platforms like Visual Studio Code. It greatly speeds the time it takes for a new employee to be productive.",
+        "A key member of the “Crusade Against Bureaucracy” initiative to remove the blockers that keep employees from being efficient while still maintaining high security standards across the company."
+      ],
+      "url": "https://www.linkedin.com/company/equifax/",
+      "location": "Alpharetta, Georgia, United States"
+    },
+    {
+      "name": "WarnerMedia",
+      "position": "Senior Director of Platform Services",
+      "startDate": "2005-07-31",
+      "endDate": "2019-07-31",
+      "summary": "I was originally a Software Team Lead but progressed in my career to Senior Director.  I was involved in supporting major platforms like March Madness steaming, CNN.com, NBA and CNN Elections.",
+      "highlights": [
+        "I led the Crossroad development team that developed a new broadcast scheduling and advertising management system which handles over 40% of the revenue of the company. I introduced agile development methodologies to the company as part of this effort. The system is licensed to other companies and was awarded an EMMY for its technological achievement.",
+        "I developed the automation to deploy the Crossroad system across hundreds of servers and reduced deployment time from over a day to less than an hour and reduced the errors introduced from manual configuration.  It automates all the auditing need to prove compliance with SOX standards.",
+        "I created a plan to save money and increase productivity by using senior resources that could apply automation to routine DBA tasks. I was able to bring back several people who were laid off and I improved our level of service.",
+        "During a critical data center failure, which included the DR site, I was able to use automation to build out a new production environment in our development data center and have Crossroad operational before the next schedule was due in the morning. This prevented us from having no media to air on over 14 networks which would have results in millions of dollars of lost revenue.",
+        "I worked with the NBA to transition their Sybase servers to cloud based SQL Servers for replication of statistics data and saved over $400K in annual licensing costs.",
+        "I managed vendor relationships with cloud and tool vendors that supported our development efforts. I worked with vendors of public clouds, development tools and databases including Microsoft, Amazon, Oracle, GitHub, Mongo, Tableau, Qlik, Elastic, JetBrains and Pluralsight and millions of dollars in budgets.",
+        "I introduced Power BI across the corporation to replace Power Pivot, Tableau and Qlik which saved over $250K in annual license costs.",
+        "I built Kubernetes systems in AWS and Azure that met the SOX compliance needed for revenue critical systems."
+      ],
+      "url": "https://www.linkedin.com/company/warnermedia/",
+      "location": "Atlanta, Georgia, United States"
+    },
+    {
+      "name": "Born Information Solutions",
+      "position": "Practice Principal Consultant",
+      "startDate": "2004-06-30",
+      "endDate": "2005-06-30",
+      "highlights": [],
+      "summary": "Met with customers to sell and deliver consulting services to assist in building custom software solutions. Conducted architectural assessments for various national and regional companies to deploy best practices for Web Service based applications.  Architected financial systems built around smart clients, SQL Server and SQL Reporting Services.",
+      "location": "Atlanta, Georgia, United States"
+    },
+    {
+      "name": "Hewlett-Packard",
+      "position": "Solution Architect II",
+      "startDate": "2003-09-30",
+      "endDate": "2004-05-31",
+      "highlights": [],
+      "summary": "HP acquired Extreme Logic.  Lead consultant teams to develop solutions for Enterprise customers.  Engaged on several proof-of-concept projects to help sell the Microsoft base systems to potential customers.  Accepted to the Microsoft Platinum Partner program.  Built systems around service oriented architecture for desktop, web and mobile platforms.",
+      "url": "https://www.linkedin.com/company/hewlett-packard-enterprise/",
+      "location": "Atlanta, Georgia, United States"
+    },
+    {
+      "name": "Extreme Logic",
+      "position": "Senior Consultant",
+      "startDate": "2001-10-31",
+      "endDate": "2003-08-31",
+      "highlights": [],
+      "summary": "Developed customs solutions for Enterprise clients using the Microsoft .NET and SQL platform for client/server and web based applications.",
+      "url": "https://www.linkedin.com/company/extreme-logic/",
+      "location": "Atlanta, Georgia, United States"
+    },
+    {
+      "name": "The Cannon Software Group",
+      "position": "President",
+      "startDate": "1994-01-31",
+      "endDate": "2001-09-30",
+      "highlights": [],
+      "summary": "Consultant for small and mid-size businesses. Built custom software solutions and assumed the role of trusted advisor to my customers.",
+      "location": "Suwanee, Georgia, United States"
+    },
+    {
+      "name": "Micro Integration Systems",
+      "position": "President",
+      "startDate": "1990-01-31",
+      "endDate": "1993-12-31",
+      "highlights": [],
+      "summary": "Sold hardware and software solutions for small businesses. \nDeveloped custom software solutions for Windows systems.",
+      "location": "Atlanta, Georgia, United States"
+    },
+    {
+      "name": "Transamerica",
+      "position": "C++ Developer",
+      "startDate": "1989-01-31",
+      "endDate": "1990-12-31",
+      "highlights": [],
+      "summary": "Developed health insurance management systems for IBM OS/2.",
+      "url": "https://www.linkedin.com/company/transamerica/",
+      "location": "Duluth, Georgia, United States"
+    },
+    {
+      "name": "Aegon",
+      "position": "C++ Developer",
+      "startDate": "1986-06-30",
+      "endDate": "1988-12-31",
+      "highlights": [],
+      "summary": "Developed credit insurance management systems for IBM PC systems.",
+      "url": "https://www.linkedin.com/company/aegon/",
+      "location": "Atlanta, Georgia, United States"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Lighthouse Family Retreat",
+      "position": "Web Developer",
+      "startDate": "2010-12-31",
+      "endDate": "2012-12-31",
+      "summary": "I developed a web site to track volunteer information and to register families with children with cancer.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Southern Polytechnic State University",
+      "area": "Computer Science",
+      "studyType": "Bachelor's Degree",
+      "startDate": "1983-12-31",
+      "endDate": "1986-12-31",
+      "score": "3.9/4.0 - High Honors"
+    }
+  ],
+  "awards": [
+    {
+      "title": "2014-2015 Technology and Engineering EMMY Award",
+      "date": "2015-12-31",
+      "awarder": "The National Academy of Television Arts and Sciences",
+      "summary": "Pioneering Development of Data Driven Traffic System for Multichannel Environments\n\nI was the team lead of the development Crossroad team that won this award."
+    }
+  ],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "IT Management",
+      "keywords": [
+        "Strategic Planning",
+        "Vendor Management",
+        "Audit Compliance",
+        "Security Compliance",
+        "Business Continuity",
+        "Agile Planning",
+        "Enterprise Architecture",
+        "SDLC",
+        "Budgets"
+      ]
+    },
+    {
+      "name": "Public Clouds",
+      "keywords": ["GCP", "AWS", "Azure"]
+    },
+    {
+      "name": "Platform Technologies",
+      "keywords": [
+        "Kubernetes",
+        "Docker",
+        "Serverless",
+        "Elastic Search",
+        "Prometheus"
+      ]
+    },
+    {
+      "name": "Compliance",
+      "keywords": ["FedRAMP", "SOX", "PCI"]
+    },
+    {
+      "name": "Tools",
+      "keywords": ["Terraform", "Packer", "PowerShell", "Microsoft Office"]
+    },
+    {
+      "name": "DevOps",
+      "keywords": [
+        "GitHub Actions",
+        "Azure Devops",
+        "Jenkins",
+        "Continuous Integration"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "keywords": ["C#", "Typescript", "Go", "Python"]
+    },
+    {
+      "name": "Database Technologies",
+      "keywords": [
+        "SQL Server",
+        "MongoDB",
+        "PostgreSQL",
+        "Power BI",
+        "Tableau",
+        "Data Modeling"
+      ]
+    },
+    {
+      "name": "Industries",
+      "keywords": ["Media", "Advertising", "Finance", "Insurance"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json",
+    "theme": "kendall"
+  }
+}

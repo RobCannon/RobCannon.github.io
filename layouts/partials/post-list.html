@@ -1,0 +1,21 @@
+{{ range .Pages }}
+  <article class="post">
+    {{ partial "post-header.html" . }}
+    <div class="post-content">
+      <span>
+        {{ with .Description }}
+          {{ . }}
+        {{ else }}
+          {{ .Summary }}
+          {{ if .Truncated }}
+            <div class="post-content__read-more">
+              <a href="{{ .RelPermalink }}">Read more ></a>
+            </div>
+          {{ end }}
+        {{ end }}
+      </span>
+    </div>
+  </article>
+{{ end }}
+
+{{ partial "pagination.html" . }}
