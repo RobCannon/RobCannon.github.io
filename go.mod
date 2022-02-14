@@ -1,4 +1,4 @@
-module github.com/schnerring/hugo-theme-gruvbox
+module github.com/RobCannon/RobCannon.github.io
 
 go 1.15
 
