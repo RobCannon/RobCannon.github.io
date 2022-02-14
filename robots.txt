@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://RobCannon.github.io/sitemap.xml
