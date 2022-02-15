@@ -125,7 +125,7 @@ enableRobotsTXT = true
     weight = 20
   [[menu.main]]
     identifier = "awards"
-    name = "Awards/Education"
+    name = "Awards/Education/Volunteering"
     url = "/awards"
     weight = 30
   [[menu.main]]

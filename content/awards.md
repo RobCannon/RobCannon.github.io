@@ -1,15 +1,17 @@
 ---
-title: "Awards/Education"
+title: "Awards/Education/Volunteering"
 draft: false
 type: "resume"
 ---
 
+## Awards
+
 {{< json-resume "awards" >}}
 
-# Education
+## Education
 
 {{< json-resume "education" >}}
 
-# Volunteering
+## Volunteering
 
 {{< json-resume "volunteer" >}}

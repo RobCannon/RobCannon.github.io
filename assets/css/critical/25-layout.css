@@ -12,8 +12,8 @@ main {
   align-items: start;
   display: grid;
   grid-area: main;
-  grid-template-areas: "empty content sidebar";
-  grid-template-columns: 1fr minmax(0, 650px) 4fr;
+  grid-template-areas: "empty content empty-r";
+  grid-template-columns: 1fr minmax(0, 750px) 1fr;
 }
 
 header {
@@ -32,17 +32,4 @@ footer {
 
 .content {
   grid-area: content;
-}
-
-.sidebar {
-  display: none;
-  flex-direction: column;
-  grid-area: sidebar;
-  margin-top: 3rem;
-  position: sticky;
-  top: 2rem;
-
-  @media (--lg) {
-    display: flex;
-  }
 }
