@@ -1,6 +1,3 @@
 {{ define "main" }}
-  <!-- See https://gohugo.io/functions/where/#mainsections -->
-  {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-  {{ $paginator := .Paginate $pages }}
-  {{ partial "post-list.html" $paginator }}
+  {{ partial "json-resume/basics.html" . }}
 {{ end }}

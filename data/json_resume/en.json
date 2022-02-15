@@ -52,6 +52,7 @@
       "highlights": [
         "I led the Crossroad development team that developed a new broadcast scheduling and advertising management system which handles over 40% of the revenue of the company. I introduced agile development methodologies to the company as part of this effort. The system is licensed to other companies and was awarded an EMMY for its technological achievement.",
         "I developed the automation to deploy the Crossroad system across hundreds of servers and reduced deployment time from over a day to less than an hour and reduced the errors introduced from manual configuration.  It automates all the auditing need to prove compliance with SOX standards.",
+        "I designed and built the first data warehouse system for Turner Broadcasting to support analysis of advertising data for linear and digital systems based on the Microsoft SQL BI stack.  I later led a team to transition service to a full featured Business Intelligence system by introducing PowerPivot and then Power BI.  I finally started work on transitioning the system to Snowflake to support the large amounts of data from steaming sources.",
         "I created a plan to save money and increase productivity by using senior resources that could apply automation to routine DBA tasks. I was able to bring back several people who were laid off and I improved our level of service.",
         "During a critical data center failure, which included the DR site, I was able to use automation to build out a new production environment in our development data center and have Crossroad operational before the next schedule was due in the morning. This prevented us from having no media to air on over 14 networks which would have results in millions of dollars of lost revenue.",
         "I worked with the NBA to transition their Sybase servers to cloud based SQL Servers for replication of statistics data and saved over $400K in annual licensing costs.",
@@ -216,8 +217,10 @@
         "SQL Server",
         "MongoDB",
         "PostgreSQL",
+        "PowerPivot",
         "Power BI",
         "Tableau",
+        "Snowflake",
         "Data Modeling"
       ]
     },

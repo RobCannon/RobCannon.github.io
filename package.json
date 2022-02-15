@@ -1,11 +1,8 @@
 {
   "author": {
-    "email": "3743342+schnerring@users.noreply.github.com",
+    "email": "rob@cannonsoftware.com",
     "name": "Rob Cannon",
-    "url": "https://schnerring.net"
-  },
-  "bugs": {
-    "url": "https://github.com/schnerring/hugo-theme-gruvbox/issues"
+    "url": "https://RobCannon.github.io"
   },
   "comments": {
     "dependencies": {
@@ -49,7 +46,7 @@
     "typeface-fira-code": "^1.1.13",
     "typeface-roboto-slab": "^1.1.13"
   },
-  "description": "A retro-looking Hugo theme inspired by gruvbox. The pastel colors are high contrast, easily distinguishable, pleasing to the eye, and feature light and dark color palettes.",
+  "description": "Resume for Rob Cannon.",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^4.1.3",
     "cssnano": "^5.0.12",
@@ -72,7 +69,7 @@
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-prettier": "^2.0.0"
   },
-  "homepage": "https://github.com/schnerring/hugo-theme-gruvbox#readme",
+  "homepage": "https://RobCannon.github.io",
   "keywords": [
     "hugo",
     "gruvbox",
@@ -85,10 +82,10 @@
     "*.md": "markdownlint --fix"
   },
   "main": "index.js",
-  "name": "hugo-theme-gruvbox",
+  "name": "robcannon-github-io",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/schnerring/hugo-theme-gruvbox.git"
+    "url": "git+https://github.com/RobCannon/RobCannon.github.io.git"
   },
   "scripts": {
     "lint": "npm run lint:css && npm run lint:js && npm run lint:md",

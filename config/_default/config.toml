@@ -24,18 +24,18 @@ enableRobotsTXT = true
   # soft medium hard, defaults to medium
   #themeContrast = "medium"
   author = "Rob Cannon"
-  subtitle = "Theme Demo"
-  description = "A retro-looking Hugo theme inspired by gruvbox. The pastel colors are high contrast, easily distinguishable, pleasing to the eye, and feature light and dark color palettes."
+  subtitle = "Professional Profile"
+  description = "Resume for Rob Cannon."
+  #mainSections = ['profile']
 
   [params.logo]
-    text = "gruvbox"
+    text = "Profile"
     url = "/"
 
   [params.prism]
     languages = [
       "markup",
       "css",
-      "clike",
       "javascript",
       "bash",
       "diff",
@@ -114,40 +114,20 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    identifier = "profile"
-    name = "Profile"
-    url = "/profile"
-    weight = 10
-  [[menu.main]]
     identifier = "experience"
     name = "Experience"
     url = "/experience"
-    weight = 20
+    weight = 10
   [[menu.main]]
     identifier = "skills"
     name = "Skills"
     url = "/skills"
-    weight = 30
+    weight = 20
   [[menu.main]]
     identifier = "awards"
-    name = "Awards"
+    name = "Awards/Education"
     url = "/awards"
-    weight = 40
-  [[menu.main]]
-    identifier = "education"
-    name = "Education"
-    url = "/education"
-    weight = 50
-  [[menu.main]]
-    identifier = "volunteer"
-    name = "Volunteering"
-    url = "/volunteer"
-    weight = 60
-  [[menu.main]]
-    identifier = "languages"
-    name = "Languages"
-    url = "/languages"
-    weight = 70
+    weight = 30
   [[menu.main]]
     identifier = "about"
     name = "About"
