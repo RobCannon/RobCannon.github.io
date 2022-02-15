@@ -9,6 +9,7 @@ This site depends on the following projects:
 
 - [Powered by Hugo](https://gohugo.io/)
 - Based largely on [hugo-theme-gruvbox](https://github.com/schnerring/hugo-theme-gruvbox)
+- Which heavily uses [hugo-mod-json-resume](https://github.com/schnerring/hugo-mod-json-resume)
 - Color scheme based on [Gruvbox](https://github.com/morhetz/gruvbox)
 - Code Highlighting by [Prism](https://prismjs.com/)
 - [Tabler Icons](https://tablericons.com/)
