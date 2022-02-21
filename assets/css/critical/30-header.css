@@ -8,7 +8,7 @@ header {
 }
 
 .logo {
-  color: var(--fg0);
+  color: var(--fg3);
   display: flex;
   font-weight: 700;
   grid-area: heading;
@@ -165,11 +165,13 @@ nav#menu {
   justify-content: flex-end;
 
   & .menu__item {
-    color: var(--fg);
+    color: var(--fg3);
+    font-weight: 100;
 
     &:hover {
       color: var(--fg3);
       cursor: pointer;
+      font-weight: 600;
     }
   }
 

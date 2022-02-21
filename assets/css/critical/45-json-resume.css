@@ -8,56 +8,71 @@
 }
 
 .jr-basics__item {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-  grid-template-areas:
-    "name"
-    "label"
-    "summary"
-    "address"
-    "city_state"
-    "email"
-    "phone"
-    "profile";
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .jr-basics__name {
-  grid-area: name;
+  order: 1;
+  flex-basis: 100%;
+  font-size: 20pt;
 }
 
 .jr-basics__label {
-  grid-area: label;
+  order: 2;
+  flex-basis: 100%;
+  margin-top: 0;
 }
 
 .jr-basics__summary {
-  grid-area: summary;
+  order: 3;
+  flex-basis: 100%;
 }
 
 .jr-basics__location-address {
-  grid-area: address;
+  order: 4;
+  flex-basis: 100%;
+  margin-top: 12px;
 }
 .jr-basics__location-city {
-  grid-area: city_state;
+  order: 5;
+  flex-basis: auto;
+}
+.jr-basics__location-region {
+  order: 6;
+  flex-basis: auto;
+}
+.jr-basics__location-region::before {
+  content: ",\00a0";
+}
+.jr-basics__location-postalCode {
+  order: 7;
+  flex-basis: auto;
+}
+.jr-basics__location-postalCode::before {
+  content: "\00a0";
 }
 .jr-basics__location-countryCode {
   display: none;
 }
-.jr-basics__location-region {
-  grid-area: city_state;
-}
-.jr-basics__location-postalCode {
-  grid-area: city_state;
-}
 .jr-basics__email {
-  grid-area: email;
+  order: 8;
+  flex-basis: 100%;
 }
 .jr-basics__phone {
-  grid-area: phone;
+  order: 9;
+  flex-basis: 100%;
+}
+.jr-basics__profile {
+  order: 10;
+  flex-basis: 100%;
+  margin-top: 12px;
 }
 
-.jr-location-profile--col {
-  grid-area: profile;
+.jr-work__name::before {
+  content: "\00a0";
 }
 
 @media (--md) {
