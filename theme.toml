@@ -2,7 +2,7 @@ name = "RobCannon"
 license = "MIT"
 licenselink = "https://github.com/RobCannon/RobCannon.github.io/blob/main/LICENSE"
 description = "A professional profile for Rob Cannon."
-homepage = "https://RobCannon.github.io"
+homepage = "https://cannonsoftware.com"
 tags = [
   "blog",
   "dark mode",
@@ -15,4 +15,4 @@ min_version = "0.41.0"
 
 [author]
   name = "Rob Cannon"
-  homepage = "https://RobCannon.github.io"
+  homepage = "https://www.cannonsoftware.com"
