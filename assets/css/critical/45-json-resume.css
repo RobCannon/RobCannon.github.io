@@ -29,20 +29,24 @@
 .jr-basics__summary {
   order: 3;
   flex-basis: 100%;
+  margin-top: 24px0;
 }
 
 .jr-basics__location-address {
   order: 4;
   flex-basis: 100%;
-  margin-top: 12px;
+  margin-top: 24px;
+  line-height: 1.1;
 }
 .jr-basics__location-city {
   order: 5;
   flex-basis: auto;
+  line-height: 1.1;
 }
 .jr-basics__location-region {
   order: 6;
   flex-basis: auto;
+  line-height: 1.1;
 }
 .jr-basics__location-region::before {
   content: ",\00a0";
@@ -50,6 +54,7 @@
 .jr-basics__location-postalCode {
   order: 7;
   flex-basis: auto;
+  line-height: 1.1;
 }
 .jr-basics__location-postalCode::before {
   content: "\00a0";
@@ -60,15 +65,17 @@
 .jr-basics__email {
   order: 8;
   flex-basis: 100%;
+  line-height: 1.1;
 }
 .jr-basics__phone {
   order: 9;
   flex-basis: 100%;
+  line-height: 1.1;
 }
 .jr-basics__profile {
   order: 10;
   flex-basis: 100%;
-  margin-top: 12px;
+  margin-top: 24px;
 }
 
 .jr-work__name::before {

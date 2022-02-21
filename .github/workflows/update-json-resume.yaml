@@ -1,0 +1,20 @@
+name: Update Json Resume
+on:
+  push:
+    branches:
+      - main
+    paths: # Only when the json resume file is updated
+      - "data/json_resume/en.json"
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Deploy Gist
+        uses: exuanbo/actions-deploy-gist@v1
+        with:
+          token: ${{ secrets.GIST_UPDATE_TOKEN }}
+          gist_id: 6f7aa275b4bbebec86b4aa7f2c19d7be
+          gist_description: "JSON Resume for Rob Cannon"
+          gist_file_name: resume.json
+          file_path: ./data/json_resume/en.json
