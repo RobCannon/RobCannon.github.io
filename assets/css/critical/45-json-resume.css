@@ -81,6 +81,10 @@
 .jr-work__name::before {
   content: "\00a0";
 }
+.jr-basics__profile-icon {
+  fill: var(--fg);
+  margin-left: 200px;
+}
 
 @media (--md) {
   .jr__item-meta {

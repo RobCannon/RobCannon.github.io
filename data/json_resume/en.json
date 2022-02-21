@@ -21,8 +21,13 @@
       },
       {
         "network": "LinkedIn",
-        "username": "rob-cannon",
+        "username": "Rob Cannon",
         "url": "https://www.linkedin.com/in/rob-cannon"
+      },
+      {
+        "network": "c",
+        "username": "cannonsoftware.com",
+        "url": "https://cannonsoftware.com"
       }
     ]
   },

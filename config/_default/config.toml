@@ -108,6 +108,10 @@ enableRobotsTXT = true
     iconName = "telegram"
     formatString = "https://telegram.me/share/url?url={url}&text={title}"
   [[params.socialShare]]
+    iconSuite = "simple-icon"
+    iconName = "c"
+    formatString = "https://{url}"
+  [[params.socialShare]]
     iconSuite = "tabler-icon"
     iconName = "mail"
     formatString = "mailto:?subject={title}&body={url}"
