@@ -35,7 +35,7 @@
     {
       "name": "Equifax",
       "position": "Director of Cloud Services",
-      "startDate": "2019-07-31",
+      "startDate": "2019-07-01",
       "summary": "Leading the engineering team that builds the core infrastructure security blocks to allow Equifax to migrate to the Google Cloud Platform and comply with FedRAMP standards.",
       "highlights": [
         "Established best practices for managing Google Kubernetes Engine and created Terraform automation that teams can use create clusters that meet high Equifax security standards. Continuing to bring new functionality such as Anthos Service Mesh and Anthos Configuration Manger as part of the Equifax standard for GKE.",
@@ -51,8 +51,8 @@
     {
       "name": "WarnerMedia",
       "position": "Senior Director of Platform Services",
-      "startDate": "2005-07-31",
-      "endDate": "2019-07-31",
+      "startDate": "2005-07-05",
+      "endDate": "2019-06-30",
       "summary": "I was originally a Software Team Lead but progressed in my career to Senior Director.  I was involved in supporting major platforms like March Madness steaming, CNN.com, NBA and CNN Elections.",
       "highlights": [
         "I led the Crossroad development team that developed a new broadcast scheduling and advertising management system which handles over 40% of the revenue of the company. I introduced agile development methodologies to the company as part of this effort. The system is licensed to other companies and was awarded an EMMY for its technological achievement.",
@@ -71,7 +71,7 @@
     {
       "name": "Born Information Solutions",
       "position": "Practice Principal Consultant",
-      "startDate": "2004-06-30",
+      "startDate": "2004-06-01",
       "endDate": "2005-06-30",
       "highlights": [],
       "summary": "Met with customers to sell and deliver consulting services to assist in building custom software solutions. Conducted architectural assessments for various national and regional companies to deploy best practices for Web Service based applications.  Architected financial systems built around smart clients, SQL Server and SQL Reporting Services.",
@@ -80,7 +80,7 @@
     {
       "name": "Hewlett-Packard",
       "position": "Solution Architect II",
-      "startDate": "2003-09-30",
+      "startDate": "2003-09-01",
       "endDate": "2004-05-31",
       "highlights": [],
       "summary": "HP acquired Extreme Logic.  Lead consultant teams to develop solutions for Enterprise customers.  Engaged on several proof-of-concept projects to help sell the Microsoft base systems to potential customers.  Accepted to the Microsoft Platinum Partner program.  Built systems around service oriented architecture for desktop, web and mobile platforms.",
@@ -90,8 +90,8 @@
     {
       "name": "Extreme Logic",
       "position": "Senior Consultant",
-      "startDate": "2001-10-31",
-      "endDate": "2003-08-31",
+      "startDate": "2001-10-01",
+      "endDate": "2003-08-30",
       "highlights": [],
       "summary": "Developed customs solutions for Enterprise clients using the Microsoft .NET and SQL platform for client/server and web based applications.",
       "url": "https://www.linkedin.com/company/extreme-logic/",
