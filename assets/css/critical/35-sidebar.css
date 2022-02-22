@@ -1,3 +1,18 @@
+.sidebar {
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2.5rem;
+
+  & svg {
+    fill: var(--fg);
+  }
+}
+
+.sidebar__heading {
+  font-size: 1.3rem;
+}
+
 aside.toc {
   & a {
     color: var(--primary-alt);
@@ -28,22 +43,42 @@ aside.toc {
   }
 }
 
-.jr-basics__image {
-  background: var(--bg1);
-  border: 2px solid var(--bg2);
-}
+.bio {
+  & section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-.jr-basics__description {
-  color: var(--fg3);
-  font-family: var(--font-serif);
-}
+    & .name {
+      color: var(--fg);
+      font-family: var(--font-serif);
+      font-size: 1.125rem;
+      font-weight: bold;
+      text-align: center;
+    }
 
-.jr-basics__profile {
-  & a:hover {
-    color: var(--fg3);
+    & img {
+      height: 200px;
+      width: 200px;
+      text-align: center;
+      border-radius: 50%;
+    }
 
-    & svg {
-      fill: var(--fg3);
+    & .web-links {
+      margin-top: 30px;
+      & .web-links-icon {
+        display: flex;
+        padding: 0.2rem;
+        text-align: center;
+        align-items: center;
+
+        & svg {
+          fill: var(--fg);
+          height: 24px;
+          width: 24px;
+          margin-right: 6px;
+        }
+      }
     }
   }
 }

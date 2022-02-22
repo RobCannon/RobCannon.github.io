@@ -1,0 +1,53 @@
+<div class="sidebar">
+  {{ if .Params.toc }}
+    {{ with .TableOfContents }}
+      <aside class="toc">
+        <nav>
+          <p class="sidebar__heading">Table Of Contents</p>
+          {{ . }}
+        </nav>
+      </aside>
+      <hr />
+    {{ end }}
+  {{ end }}
+
+
+  <aside class="bio">
+    <section>
+      <div class="name">Robert Cannon</div>
+
+      <img src="/images/profile.jpg" />
+      <div class="web-links">
+        <a href="https://github.com/RobCannon">
+          <div class="web-links-icon">
+            {{ partial "icons/simple-icon.html" "github" }}
+            <div class="web-link-name">RobCannon</div>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/rob-cannon">
+          <div class="web-links-icon">
+            {{ partial "icons/simple-icon.html" "linkedin" }}
+            <div class="jr-basics__profile-username">Rob Cannon</div>
+          </div>
+        </a>
+
+        <a href="https://cannonsoftware.com">
+          <div class="web-links-icon">
+            {{ partial "icons/simple-icon.html" "c" }}
+            <div class="jr-basics__profile-username">cannonsoftware.com</div>
+          </div>
+        </a>
+
+        <a href="mailto:rob@cannonsoftware.com">
+          <div class="web-links-icon">
+            {{ partial "icons/tabler-icon.html" "mail" }}
+            <div class="jr-basics__profile-username">
+              rob@cannonsoftware.com
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+  </aside>
+</div>

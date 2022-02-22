@@ -83,7 +83,6 @@
 }
 .jr-basics__profile-icon {
   fill: var(--fg);
-  margin-left: 200px;
 }
 
 @media (--md) {
