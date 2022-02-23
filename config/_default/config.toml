@@ -29,7 +29,7 @@ enableRobotsTXT = true
   #mainSections = ['profile']
 
   [params.logo]
-    text = "Profile"
+    text = "Blog"
     url = "/"
 
   [params.prism]
@@ -118,30 +118,25 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog"
+    identifier = "profile"
+    name = "Profile"
+    url = "/profile"
     weight = 10
   [[menu.main]]
     identifier = "experience"
     name = "Experience"
     url = "/experience"
-    weight = 10
-  [[menu.main]]
-    identifier = "skills"
-    name = "Skills"
-    url = "/skills"
     weight = 20
   [[menu.main]]
     identifier = "awards"
-    name = "Awards/Education/Volunteering"
+    name = "Awards/Education/More"
     url = "/awards"
     weight = 30
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about"
-    weight = 80
+    weight = 50
 
 [languages]
   [languages.en]

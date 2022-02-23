@@ -1,12 +1,11 @@
 +++
 author = "Rob Cannon"
 title = "Placeholder Text"
-date = "2019-03-09"
+date = "2021-12-22"
 description = "Lorem Ipsum Dolor Si Amet"
 tags = [
     "markdown",
-    "text",
-    "hugo-basic-example",
+    "hugo",
 ]
 +++
 

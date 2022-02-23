@@ -1,5 +1,5 @@
 ---
-title: "Awards/Education/Volunteering"
+title: "Awards/Education/More"
 draft: false
 type: "resume"
 ---
@@ -12,6 +12,14 @@ type: "resume"
 
 {{< json-resume "education" >}}
 
+## Skills
+
+{{< json-resume "skills" >}}
+
 ## Volunteering
 
 {{< json-resume "volunteer" >}}
+
+# Languages
+
+{{< json-resume "languages" >}}
